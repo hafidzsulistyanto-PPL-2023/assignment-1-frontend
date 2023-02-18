@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = 'https://assignment-1-backend.up.railway.app/'
+const baseUrl = 'https://assignment-1-backend.up.railway.app'
 
 const getAllUser = (setUser) => {
   axios.get(baseUrl).then(({ data }) => {
